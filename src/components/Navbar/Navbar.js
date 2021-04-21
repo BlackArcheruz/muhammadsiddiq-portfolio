@@ -3,7 +3,7 @@ import {Navbar, Nav} from 'react-bootstrap'
 const Navbar1 = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top" variant="dark">
+            <Navbar collapseOnSelect expand="lg" fixed="top" variant="dark" style={{backgroundColor: "rgba(0,0,0,0.7)"}}>
               <div className="container">
               <Navbar.Brand href="/">Muhammad Siddiq</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,7 +25,7 @@ const Navbar1 = () => {
         About
       </Nav.Link>
       <Nav.Link href="/">Portfolio</Nav.Link>
-      <Nav.Link href="/">Contact</Nav.Link>
+      <Nav.Link href="/" style={{marginRight: "2.5rem"}}>Contact</Nav.Link>
     </Nav>
             </Navbar.Collapse>
             </div>
