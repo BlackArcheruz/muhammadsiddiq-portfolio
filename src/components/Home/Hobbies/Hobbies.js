@@ -20,7 +20,7 @@ const Hobbies = () => {
         <Row>
         <Col xs={6} md={4}>
         <Card style={{ width: '300px', display: 'flex',alignItems: "center",border: "none" }} data-aos="flip-left" className="mt-3">
-        <Card.Img variant="top" src={game} style={{"height":"300px", "width": "300px"}} rounded/>
+        <Card.Img variant="top" src={game} style={{"height":"300px", "width": "300px", borderRadius: ".3rem"}} rounded/>
         <Card.Body>
             <Card.Title style={{color: "#000"}}>Gaming</Card.Title>
             <Card.Text style={{color: "#000"}}>
@@ -31,7 +31,7 @@ const Hobbies = () => {
         </Col>
         <Col xs={6} md={4}>
         <Card style={{ width: '300px',border: "none", display: 'flex',alignItems: "center", }} data-aos="flip-left" className="mt-3">
-        <Card.Img variant="top" src={book} style={{"height":"300px", "width": "300px"}} rounded/>
+        <Card.Img variant="top" src={book} style={{"height":"300px", "width": "300px", borderRadius: ".3rem"}} rounded/>
         <Card.Body>
             <Card.Title style={{color: "#000"}}>Reading Books</Card.Title>
             <Card.Text style={{color: "#000"}}>
@@ -42,7 +42,7 @@ const Hobbies = () => {
         </Col>
         <Col xs={6} md={4}>
         <Card style={{ width: '300px', border: "none", display: 'flex',alignItems: "center", }} data-aos="flip-left" className="mt-3">
-        <Card.Img variant="top" src={football} style={{"height":"300px", "width": "300px"}} rounded/>
+        <Card.Img variant="top" src={football} style={{"height":"300px", "width": "300px", borderRadius: ".3rem"}} rounded/>
         <Card.Body style={{color: "#000"}}>
             <Card.Title>Football</Card.Title>
             <Card.Text>

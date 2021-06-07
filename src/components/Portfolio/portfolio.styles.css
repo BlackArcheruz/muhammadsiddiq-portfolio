@@ -1,0 +1,33 @@
+.portfolio{
+    align-items: center;
+    justify-content: center;
+}
+.text-gray{
+    color: #7d7d7d;
+}
+.my-site-img{
+    width: 500px;
+}
+.sites{
+    width: 100%;
+}
+.my-site{
+    width: 50%;
+}
+.my-site-text{
+    width: 60%;
+}
+.btn-source{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.source{
+    margin: 0 10px 0 0;
+}
+.display-flex{
+    display: flex;
+}
+.justify{
+    margin: 0 10px;
+}

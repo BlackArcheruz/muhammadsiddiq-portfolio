@@ -4,7 +4,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 const Navbar1 = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" fixed="top" variant="dark" style={{backgroundColor: "rgba(0,0,0,0.7)"}}>
+            <Navbar collapseOnSelect expand="lg" sticky="top" variant="dark" style={{backgroundColor: "rgba(0,0,0,0.7)"}}>
               <div className="container">
               <Navbar.Brand href="/">Muhammad Siddiq</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />

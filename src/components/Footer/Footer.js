@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="d-flex flex-column">
                 <h3>Muhammad Siddiq</h3>
                 <div style={{color: "#000", backgroundColor: "#000", width: "150px", height: "2px", margin: "0 2px", borderRadius: "5px"}}></div>
-                <p>I was born in 2006 year, 18 February. I study at 116 school in Tashkent.</p>
+                <p>I was born in 2006 year, 18 February. I study at Najot Ta'lim in Tashkent.</p>
             </div>
             <div className="d-flex flex-column">
                 <h4>Links</h4>

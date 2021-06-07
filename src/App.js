@@ -5,6 +5,7 @@ import Loading from './components/Loading/Loading'
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
+import { Portfolio } from "./components/Portfolio/Portfolio";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,9 @@ function App() {
       </Route>
       <Route exact path='/about'>
         <About/>
+      </Route>
+      <Route exact path='/portfolio'>
+        <Portfolio/>
       </Route>
       </Switch>
       <Footer/>
