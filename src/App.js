@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import { Portfolio } from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,9 @@ function App() {
       <Route exact path='/portfolio'>
         <Portfolio/>
       </Route>
+      <Route exact path="/contact">
+        <Contact/>
+        </Route>
       </Switch>
       <Footer/>
       </Router>
