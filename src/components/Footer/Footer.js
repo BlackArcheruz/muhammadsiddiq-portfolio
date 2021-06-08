@@ -25,7 +25,7 @@ const Footer = () => {
                 <h4>Contact</h4>
                 <p><i className="fas fa-home mr-2"></i>Tashkent</p>
                 <p><i class="fas fa-envelope mr-2"></i>breakingreport4@gmail.com</p>
-                <p><i class="fas fa-phone mr-2"></i>+998 93 356 69 71</p>
+                <p><i class="fas fa-phone mr-2"></i>+998 93 592 18 02</p>
             </div>
             </div>
             </Container>
