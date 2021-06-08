@@ -31,3 +31,29 @@
 .justify{
     margin: 0 10px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+    .sites, .flex-row, .flex-row-reverse{
+        flex-direction: column !important;
+    }
+    .my-site > img{
+        width: 90vw;
+    }
+}
+@media (min-width: 481px) and (max-width: 576px){
+    .sites, .flex-row, .flex-row-reverse{
+        flex-direction: column !important;
+    }
+    .my-site > img{
+        width: 90vw;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+    .my-site > img{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .my-site > img{
+        width: 100%;
+    }
+}

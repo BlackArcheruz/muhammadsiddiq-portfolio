@@ -9,7 +9,7 @@ const Contact = () => {
         });
       }, []);
     return (
-        <div className="contact display-flex justify-content-center align-items-center flex-column py-5" data-aos="zoom-in-down">
+        <div className="contact display-flex justify-content-center align-items-center flex-column py-5 px-2" data-aos="zoom-in-down">
             <h1 className="text-center h4">You Can Contact from my Email:</h1>
             <h1 className="h2 text-center pb-5"><a href="mailto:Breakingreport4@gmail.com">My Email ! (Click to the Text)</a></h1>
         </div>

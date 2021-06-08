@@ -123,3 +123,31 @@ footer{
   background-color: #E8EDF1;
   transition: ease .3s background-color;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer, .row{
+    flex-direction: column !important;
+  }
+  .row > *,.d-flex,.card{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 576px) {
+  .row, .footer{
+    flex-direction: column !important;
+  }
+  .row > *, .card{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .row > *{
+    width: 50% !important;
+    max-width: 50% !important;
+  }
+  .card{
+    width: 100%;
+  }
+}
