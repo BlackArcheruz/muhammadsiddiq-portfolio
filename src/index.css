@@ -54,6 +54,9 @@ footer{
   width: 33.3%;
   padding: 0 5%;
 }
+.d-flex{
+  padding 0 5%;
+}
 .about{
   margin-top: 14%;
   padding: 0 20px;
@@ -128,7 +131,7 @@ footer{
   .footer, .row{
     flex-direction: column !important;
   }
-  .row > *,.d-flex,.card{
+  .row > *,.d-flex1,.card{
     width: 100% !important;
     max-width: 100% !important;
   }
