@@ -1,7 +1,7 @@
 export const Site = ({img, title, text, githublink,sitelink,classNames})=>{
     return(
         <div className={`d-flex ${classNames} justify-content-between sites my-3`}>
-        <div className="my-site">
+        <div className="my-site px-3">
             <img src={img} alt="" className="my-site-img" style={{borderRadius: ".5rem"}} data-aos="flip-left"/>
         </div>
         <div className="my-site-text d-flex flex-column" data-aos="zoom-in-down">
