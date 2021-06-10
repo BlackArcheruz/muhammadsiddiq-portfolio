@@ -136,6 +136,9 @@ footer{
     width: 100% !important;
     max-width: 100% !important;
   }
+  .d-flex{
+    margin: 0;
+  }
 }
 @media (min-width: 481px) and (max-width: 576px) {
   .row, .footer{
@@ -144,6 +147,9 @@ footer{
   .row > *, .card{
     width: 100% !important;
     max-width: 100% !important;
+  }
+    .d-flex{
+    margin: 0;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
