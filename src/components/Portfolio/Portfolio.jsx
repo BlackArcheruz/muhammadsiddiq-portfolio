@@ -100,6 +100,15 @@ export const Portfolio = ()=>{
             githublink: "https://github.com/MuhammadSiddiq-pyxel/searchgithub",
             sitelink: "https://searchgithub-pyxel.netlify.app/",
             classname: "flex-row-reverse"
+        },
+        {
+            id: 11,
+            img: "https://t.me/hostingbyme/2",
+            title: "PyxelGroup Web Site",
+            text: "This is our Company's web page. I created it with React JS.",
+            githublink: "https://github.com/MuhammadSiddiq-pyxel/pyxelgroup",
+            sitelink: "https://pyxelgroup.netlify.app/",
+            classname: "flex-row"
         }
     ]
     return(
